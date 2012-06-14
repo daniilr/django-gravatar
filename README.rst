@@ -24,7 +24,7 @@ This fork contains fixed hash generation.
 Installation
 ************
 
-To install it, download this repository and execute with root access (::
+To install it, download this repository and execute with root access ::
 
     python setup.py install
 
