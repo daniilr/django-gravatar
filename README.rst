@@ -2,8 +2,6 @@
 django-gravatar
 ===============
 
-.. image:: http://stillmaintained.com/nvie/django-gravatar.png
-
 `django-gravatar` makes it easy to add Gravatar support to your Django
 application through the addition of a template tag.
 
@@ -20,14 +18,15 @@ Gravatar-specific, with local Django caching).
 If, however, you want to stick to a Gravatar-only solution, this package
 may a bit more "lightweight" and easier to start using.
 
+This fork contains fixed hash generation.
 
 ************
 Installation
 ************
 
-To install it, use pip::
+To install it, download this repository and execute with root access (::
 
-    pip install django-gravatar
+    python setup.py install
 
 
 *****
